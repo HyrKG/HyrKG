@@ -1,5 +1,3 @@
-![HyrKG's GitHub stats](https://github-readme-stats.vercel.app/api?username=hyrkg&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
-
 ![image](http://hyrkg.cn:1130/uploads/1627221386440263763foxsleep.jpg) 联系QQ: 137391258
 
 <!--
