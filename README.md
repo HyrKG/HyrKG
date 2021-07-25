@@ -1,4 +1,6 @@
-![image](http://hyrkg.cn:1130/uploads/1627221386440263763foxsleep.jpg) 联系QQ: 137391258
+![image](http://hyrkg.cn:1130/uploads/1627221386440263763foxsleep.jpg) 
+
+QQ: 137391258
 
 <!--
 **HyrKG/HyrKG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
