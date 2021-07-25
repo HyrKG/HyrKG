@@ -1,5 +1,5 @@
 ### Hi there 👋
-![image](https://github.com/HyrKG/HyrKG/blob/main/meowmeow.gif)
+![image](http://148.70.77.102:1130/uploads/162722080184640308meowmeow.gif)
 <!--
 **HyrKG/HyrKG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
