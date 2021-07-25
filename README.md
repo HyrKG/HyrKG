@@ -1,7 +1,6 @@
-![image](http://hyrkg.cn:1130/uploads/1627221386440263763foxsleep.jpg)
 ![HyrKG's GitHub stats](https://github-readme-stats.vercel.app/api?username=hyrkg&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
-### 📫 QQ: 137391258
+![image](http://hyrkg.cn:1130/uploads/1627221386440263763foxsleep.jpg)📫 QQ: 137391258
 
 <!--
 **HyrKG/HyrKG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
