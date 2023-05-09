@@ -6,19 +6,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  topics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: icons.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
-          plugin_topics_sort: activity
-
   github-metrics:
     runs-on: ubuntu-latest
     steps:
@@ -35,33 +22,33 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
-  lines:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: lines-of-code.svg
-          token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.METRICS_SECRET }}
-          base: "repositories"
-          plugin_lines: yes
+#   lines:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: lowlighter/metrics@latest
+#         with:
+#           filename: lines-of-code.svg
+#           token: ${{ secrets.METRICS_SECRET }}
+#           committer_token: ${{ secrets.METRICS_SECRET }}
+#           base: "repositories"
+#           plugin_lines: yes
 
-  acti_comm:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: acti_comm.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.METRICS_SECRET }}
+#   acti_comm:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: lowlighter/metrics@latest
+#         with:
+#           filename: acti_comm.svg
+#           # You'll need to setup a personal token in your secrets.
+#           token: ${{ secrets.METRICS_SECRET }}
+#           # GITHUB_TOKEN is a special auto-generated token used for commits
+#           committer_token: ${{ secrets.METRICS_SECRET }}
 
-          # Options
-          user: hyrkg
-          template: classic
-          base: activity, community
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+#           # Options
+#           user: hyrkg
+#           template: classic
+#           base: activity, community
+#           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   iso_calender:
     runs-on: ubuntu-latest
@@ -118,21 +105,31 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: no
           plugin_languages: yes
-
-
-  repositories:
+  topics:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: repositories.svg
-          # You'll need to setup a personal token in your secrets.
-          token: ${{ secrets.METRICS_SECRET }}
-          # GITHUB_TOKEN is a special auto-generated token used for commits
-          committer_token: ${{ secrets.METRICS_SECRET }}
+          filename: icons.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_topics_sort: activity
+#   repositories:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: lowlighter/metrics@latest
+#         with:
+#           filename: repositories.svg
+#           # You'll need to setup a personal token in your secrets.
+#           token: ${{ secrets.METRICS_SECRET }}
+#           # GITHUB_TOKEN is a special auto-generated token used for commits
+#           committer_token: ${{ secrets.METRICS_SECRET }}
 
-          # Options
-          user: hyrkg
-          template: classic
-          base: repositories
-          config_timezone: ${{ secrets.USER_TIMEZONE }}
+#           # Options
+#           user: hyrkg
+#           template: classic
+#           base: repositories
+#           config_timezone: ${{ secrets.USER_TIMEZONE }}
