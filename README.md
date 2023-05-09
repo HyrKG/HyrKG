@@ -6,8 +6,8 @@
   <img align="center" width="49%" src="./iso_calender.svg" />
 </a>
 <a href="https://github.com/hyrkg">
-    <img align="center" width="49%" src="./issue_pr_lang.svg" />
+  <img align="center" width="49%" src="./github-habits.svg" />
 </a>
 <a href="https://github.com/hyrkg">
-  <img align="center" width="49%" src="./github-habits.svg" />
+    <img align="center" width="99%" src="./issue_pr_lang.svg" />
 </a>
