@@ -121,7 +121,7 @@ jobs:
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
-          plugin_followup: yes
+          plugin_followup: no
           plugin_languages: yes
 
 
