@@ -105,18 +105,18 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_followup: no
           plugin_languages: yes
-  topics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: icons.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
-          plugin_topics_sort: activity
+#   topics:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: lowlighter/metrics@latest
+#         with:
+#           filename: icons.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_topics: yes
+#           plugin_topics_limit: 0
+#           plugin_topics_mode: icons
+#           plugin_topics_sort: activity
 #   repositories:
 #     runs-on: ubuntu-latest
 #     steps:
