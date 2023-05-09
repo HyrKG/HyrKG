@@ -13,12 +13,13 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.topics.icons.svg
+          filename: icons.svg
           token: ${{ secrets.METRICS_SECRET }}
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
+          plugin_topics_sort: activity
 
   github-metrics:
     runs-on: ubuntu-latest
