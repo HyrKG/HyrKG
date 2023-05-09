@@ -8,21 +8,17 @@ on:
 
 jobs:
 
-  achievements:
+  topics:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: achievements.svg
+          filename: metrics.plugin.topics.icons.svg
           token: ${{ secrets.METRICS_SECRET }}
-          committer_token: ${{ secrets.METRICS_SECRET }}
-          user: hyrkg
-          base: achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: B      # Display achievements with rank B or higher
-          plugin_achievements_secrets: yes      # Display unlocked secrets achievements
-          plugin_achievements_display: compact  # Use compact display
-          plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
 
   github-metrics:
     runs-on: ubuntu-latest
